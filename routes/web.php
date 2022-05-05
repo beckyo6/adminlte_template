@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,8 +19,8 @@ Route::get('/', function () {
 });
 
 Route::prefix('admin')->namespace('Back')-> group(function(){
-    Route::get('/', 'AdminController@index');
-    Route::get('/login', 'AdminController@login');
-    Route::post('/login', 'AdminController@login');
-    Route::get('/logout', 'AdminController@logout');
+    Route::get('/', [AdminController::class, 'index'])->name('admin.index');
+    Route::get('/login', [AdminController::class, 'login'])->name('admin.login');
+    Route::post('/login', [AdminController::class, 'login'])->name('admin.login');
+    Route::get('/logout', [AdminController::class, 'logout'])->name('admin.logout');
 });
