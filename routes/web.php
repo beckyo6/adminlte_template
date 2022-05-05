@@ -14,13 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::prefix('admin')->namespace('Back')-> group(function(){
     Route::get('/', [AdminController::class, 'index'])->name('admin.index');
     Route::get('/login', [AdminController::class, 'login'])->name('admin.login');
     Route::post('/login', [AdminController::class, 'login'])->name('admin.login');
     Route::get('/logout', [AdminController::class, 'logout'])->name('admin.logout');
-});
