@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::prefix('admin')->namespace('Back')-> group(function(){
+    Route::get('/', 'AdminController@index');
+    Route::get('/login', 'AdminController@login');
+    Route::post('/login', 'AdminController@login');
+    Route::get('/logout', 'AdminController@logout');
+});
