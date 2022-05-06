@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Starter</title>
+    <title>Dashboard Admin</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -43,7 +43,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                         <a class="dropdown-item" href="#">
-                            <i class="fas fa-user text-dark"></i> 
+                            <i class="fas fa-user text-dark"></i>
                             Profil
                         </a>
                         <a class="dropdown-item" href="#">
@@ -52,17 +52,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </a>
                     </div>
                 </li>
-                {{-- <li class="nav-item">
-                    <!-- Navbar user panel (optional) -->
-                    <div class="user-panel mt-3 d-flex px-5">
-                        <div class="image">
-                            <img src="assets/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                        </div>
-                        <div class="info">
-                            <a href="#" class="d-block" style="color: black">Alexander Pierce</a>
-                        </div>
-                    </div>
-                </li> --}}
             </ul>
         </nav>
         <!-- /.navbar -->
@@ -84,38 +73,38 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-                        <li class="nav-item menu-open">
+                        <li class="nav-item">
                             <a href="#" class="nav-link active">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <i class="nav-icon fas fa-th"></i>
                                 <p>
-                                    Starter Pages
+                                    Dashboard
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-users"></i>
+                                <p>
+                                    Admins
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Active Page</p>
+                                        <p>ajouter un admin</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Inactive Page</p>
+                                        <p>liste des admins</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
-                                <p>
-                                    Simple Link
-                                    <span class="right badge badge-danger">New</span>
-                                </p>
-                            </a>
-                        </li>
+
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
@@ -165,7 +154,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Main Footer -->
         <footer class="main-footer">
             <!-- To the right -->
-            <strong class="float-righ">Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
+            <strong class="float-righ">Copyright &copy; 2022 <a
+                    href="https://beckyada.com">Becky ada</a>.</strong> All rights
             reserved.
         </footer>
     </div>
