@@ -38,7 +38,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <a class="nav-link" data-toggle="dropdown" href="#">
                         <span class="user-panel image d-block mt-3 d-flex px-5">
                             <img src="assets/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                            <span style="color: black">Alexander Pierce</span>
+                            <span style="color: black"><b>Becky Ada</b></span>
                         </span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
@@ -60,9 +60,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="index3.html" class="brand-link">
-                <img src="assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-                    style="opacity: .8">
-                <span class="brand-text font-weight-light">AdminLTE 3</span>
+                {{--<img src="assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                    style="opacity: .8">--}}
+                <span class="brand-text font-weight-light"> <b> BECKY ADA</b></span>
             </a>
 
             <!-- Sidebar -->
