@@ -6,7 +6,7 @@
             <div class="small-box bg-white text-center">
                 <div class="inner">
                     <h3>150</h3>
-                    <p>New Orders</p>
+                    <p>Total Admins</p>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
             <div class="small-box bg-white text-center">
                 <div class="inner">
                     <h3>53</h3>
-                    <p>Bounce Rate</p>
+                    <p>Total Agents</p>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
             <div class="small-box bg-white text-center">
                 <div class="inner">
                     <h3>44</h3>
-                    <p>User Registrations</p>
+                    <p>Total Agents Valides</p>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                 <div class="inner">
                     <h3>65</h3>
 
-                    <p>Unique Visitors</p>
+                    <p>Total Agents en Attente</p>
                 </div>
 
             </div>
