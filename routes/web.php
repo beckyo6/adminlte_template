@@ -16,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', [HomeController::class, 'home'])->name('home');
 
-Route::get('/admins', [AdminController::class, 'index'])->name('admins.index');
+Route::controller(AdminController::class)->group(function(){
+    Route::get('/admins', 'index')->name('admins.index');
+    Route::get('/admins/create','create')->name('admins.create');
+    Route::post('/admins', 'store')->name('admins.store');
+});
     
