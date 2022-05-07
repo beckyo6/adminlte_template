@@ -36,7 +36,6 @@
             <div class="small-box bg-white text-center">
                 <div class="inner">
                     <h3>65</h3>
-
                     <p>Total Agents en Attente</p>
                 </div>
 
