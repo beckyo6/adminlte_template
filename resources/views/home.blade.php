@@ -1,4 +1,7 @@
 @extends('back.layout')
+@section('title')
+    <h1 class="m-0">DASHBOARD</h1>
+@endsection
 @section('content')
     <div class="row col-lg-12">
         <div class="col-lg-3 col-6">

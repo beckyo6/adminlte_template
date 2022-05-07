@@ -119,7 +119,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">DASHBOARD</h1>
+                            @yield('title')
                         </div>
                     </div>
                     <!-- /.row -->
