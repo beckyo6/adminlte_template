@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', [HomeController::class, 'home'])->name('home');
 
-    Route::get('/', [AdminController::class, 'index'])->name('admin.index');
-    Route::get('/login', [AdminController::class, 'login'])->name('admin.login');
-    Route::post('/login', [AdminController::class, 'login'])->name('admin.login');
-    Route::get('/logout', [AdminController::class, 'logout'])->name('admin.logout');
+Route::get('/admins', [AdminController::class, 'index'])->name('admin.index');
+    
